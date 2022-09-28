@@ -23,12 +23,23 @@ public class Ejercicios_elementales {
         System.out.println("El divisor es igual a " + d);
         System.out.println("El cociente es igual a " + c);
         System.out.println("El resto es igual a " + r);
-
+    }
     
+    static void fibonacci (int limiter)
+    {
+        int first = 0;
+        int after = 1;
+        
+        while(first < limiter)
+        {
+            first = first + after;
+            System.out.println(first);
+            after = first + after;
+            System.out.println(after);
+        }
     }
     
     public static void main(String[] args) {
-        //pares(1);
-        division(10, 5);
+        fibonacci(100);
     }
 }
