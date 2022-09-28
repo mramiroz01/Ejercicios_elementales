@@ -2,7 +2,7 @@ package com.tiernoparla.ejercicios_elementos;
 
 public class pares {
     public static void main(String[] args) {
-        int i = 0;
+        int i = 1;
         
         while (i <= 10)
         {

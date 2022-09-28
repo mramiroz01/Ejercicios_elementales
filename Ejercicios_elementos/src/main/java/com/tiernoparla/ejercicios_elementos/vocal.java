@@ -3,19 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.tiernoparla.ejercicios_elementales;
+package com.tiernoparla.ejercicios_elementos;
 
 /**
  *
  * @author vespertino
  */
-public class div_algorthim {
-    public static void main(String[] args) {
-        int r;
-        int q;
-        
-        while (r >= q)
-        {
-        }
-    }
+public class vocal {
+    
 }
