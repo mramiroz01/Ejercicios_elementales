@@ -12,19 +12,6 @@ public class Ejercicios_elementales {
         }
     }
     
-    static void division(int D, int d)
-    {
-        int c;
-        int r;
-        
-        c = D / d;
-        r = D % d;
-        System.out.println("El dividendo es igual a " + D);
-        System.out.println("El divisor es igual a " + d);
-        System.out.println("El cociente es igual a " + c);
-        System.out.println("El resto es igual a " + r);
-    }
-    
     static void div(int N, int D)
     {
         int r;
