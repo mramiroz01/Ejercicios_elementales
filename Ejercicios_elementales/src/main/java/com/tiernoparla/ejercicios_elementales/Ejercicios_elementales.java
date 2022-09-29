@@ -25,6 +25,24 @@ public class Ejercicios_elementales {
         System.out.println("El resto es igual a " + r);
     }
     
+    static void div(int N, int D)
+    {
+        int r;
+        int q;
+
+        q = 0;
+        r = N;
+
+        while (r >= D)
+        {
+            r = r - D;
+            q++;
+        }
+        System.out.println("El cociente es: " + q);
+        System.out.println("El resto es: " + r);
+
+    }
+    
     static void fibonacci (int limiter)
     {
         int first = 0;
@@ -40,6 +58,6 @@ public class Ejercicios_elementales {
     }
     
     public static void main(String[] args) {
-        fibonacci(100);
+        div(33, 5);
     }
 }
