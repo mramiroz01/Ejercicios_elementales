@@ -1,6 +1,8 @@
 
 package com.tiernoparla.ejercicios_elementales;
 
+import java.util.Scanner;
+
 public class Ejercicios_elementales {
     static void pares(int i)
     {
@@ -12,8 +14,16 @@ public class Ejercicios_elementales {
         }
     }
     
-    static void div(int N, int D)
+    static void div()
     {
+        Scanner sc = new Scanner(System.in);
+        int N;
+        int D;
+        System.out.print("Dame un dividendo: ");
+        N = sc.nextInt();
+        System.out.print("Dame un divisor: ");
+        D = sc.nextInt();
+
         int r;
         int q;
 
@@ -25,6 +35,7 @@ public class Ejercicios_elementales {
             r = r - D;
             q++;
         }
+        System.out.println(N == D * q + r);
         System.out.println("El cociente es: " + q);
         System.out.println("El resto es: " + r);
 
@@ -43,8 +54,19 @@ public class Ejercicios_elementales {
             System.out.println(after);
         }
     }
-    
+     
+    static void capicua(int num)
+    {
+        //int numinv;
+        int rest = num;
+
+        while (rest >= 0)
+        {
+            rest = num / 10;
+        }
+        System.out.println(rest);
+    }
     public static void main(String[] args) {
-        div(33, 5);
+        div();
     }
 }
